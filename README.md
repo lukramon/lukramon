@@ -1,4 +1,4 @@
-I'm Luk Ramon and I hate using emojis
+This is my personal website
 
 <!---
 lukramon/lukramon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
