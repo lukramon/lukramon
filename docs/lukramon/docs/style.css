@@ -1,8 +1,6 @@
-@font-face{
-    font-family: Atkinson Hyperlegible Regular;
-    src: url('fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype');
-    font-weight: 400;
-}
+@import url("https://use.typekit.net/fsf5wuw.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
 @font-face {
     font-family: 'Sequel 100 Wide Regular';
@@ -23,9 +21,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Atkinson Hyperlegible Regular', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     transition: color, background-color, fill, 200ms ease-out;
-    -webkit-font-smoothing: antialiased;
 }
 *::selection {
     color: var(--primary-color);
@@ -96,7 +93,7 @@ body::-webkit-scrollbar {
     width: calc(var(--switch-null) * 6);
     height: calc(var(--switch-null) * 3);
 }
-.dark-mode:hover {
+.switch:hover {
     cursor: pointer;
 }
 .switcher {
@@ -196,7 +193,6 @@ ul li a {
     grid-template-columns: calc(100% * 4 / 5);
     grid-template-rows: calc(100% * 4 / 5);
     position: relative;
-    transition: 400ms ease-out;
 }
 .content-grid-item-logo {
     display: grid;
@@ -258,7 +254,7 @@ ul li a {
     align-content: center;
     position: relative;
 }
-.content-grid-item-underconstruction span {
+.content-grid-item-underconstruction  span{
     opacity: .7;
     font-weight: 400;
     font-size: 12px;

@@ -1,6 +1,6 @@
 let toggleStatus = false;
 
-document.querySelector('.dark-mode').addEventListener('click', () => {
+document.querySelector('.switch').addEventListener('click', () => {
     document.querySelector('.menu-wrapper').classList.toggle('is-switched');
     
     if(toggleStatus == false){
