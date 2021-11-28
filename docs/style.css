@@ -1,9 +1,8 @@
 @font-face{
-    font-family: Atkinson Hyperlegible Regular;
-    src: url('fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype');
+    font-family: Manrope Regular;
+    src: url(/fonts/Manrope-Regular.ttf);
     font-weight: 400;
 }
-
 @font-face {
     font-family: 'Sequel 100 Wide Regular';
     src: url('fonts/Sequel100Wide-45.ttf') format('truetype');
@@ -14,6 +13,9 @@
     src: url('fonts/Sequel100Wide-85.ttf') format('truetype');
     font-weight: 700;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root {
     --primary-color: #F1EFED;
     --secondary-color: #151515;
@@ -23,7 +25,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Atkinson Hyperlegible Regular', sans-serif;
+    font-family: 'Manrope Regular', sans-serif;
     transition: color, background-color, fill, 200ms ease-out;
     -webkit-font-smoothing: antialiased;
 }
@@ -52,6 +54,9 @@ body::-webkit-scrollbar {
   /* display the value of the counter before the element */
 .counter:before {
     content: counter(logoCounter);
+}
+.container{
+    max-width: 1000px;
 }
 /* menu */
 .menu-grid {
@@ -198,11 +203,17 @@ ul li a {
     position: relative;
     transition: 400ms ease-out;
 }
+/* .content-grid-item:hover {
+    box-shadow: -5px -5px 5px #aaaaaa;
+} */
 .content-grid-item-logo {
     display: grid;
     justify-content: center;
     align-content: center;
     position: relative;
+}
+.content-grid-item:hover {
+    cursor: pointer;
 }
 .logo-wrapper {
     position: absolute;
