@@ -118,6 +118,11 @@ section article p a:hover {
         --licht: #fff;
         --accent: #de9700;
     }
+    *::selection {
+        color: var(--donker);
+        background-color: rgba(0, 0, 0, 100%);
+        opacity: 100%;
+    }
     body {
         background-color: var(--licht);
     }
