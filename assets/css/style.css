@@ -60,7 +60,7 @@ ul li {
     z-index: 1;
 }
 ul li:last-child:before {
-    content: 'dark \00a0';
+    content: 'dark \2010';
 }
 ul li a {
     text-decoration: none;
