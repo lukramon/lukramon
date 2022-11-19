@@ -89,18 +89,6 @@ section article p {
     line-height: 2.2rem;
     max-width: 40ch;
 }
-section article p a {
-    color: var(--donker);
-    font-family: 'JetbrainsMono Regular', monospace;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 1ex;
-    text-transform: lowercase;
-    transition: color 300ms ease-out;
-}
-section article p a:hover {
-    color: var(--accent);
-}
 .beschrijving {
     gap: 1ch;
 }
